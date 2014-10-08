@@ -18,6 +18,6 @@ void findFactorial(int num,int *factorial){
 
     *factorial =1;
 
-    for(i=1;i<=num;i++)
+    for(i=1;i<num+1;i++)
       *factorial=*factorial*i;
 }
